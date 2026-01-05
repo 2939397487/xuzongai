@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+:root {
+  /* 亮色模式 */
+  --background: #f8fafc;
+  --foreground: #0f172a;
+  --card-background: #ffffff;
+  --card-foreground: #0f172a;
+  --border: #e5e7eb; /* gray-200 */
+  --primary: #0f172a; /* 藏青色 */
+  --primary-foreground: #ffffff;
+  --secondary: #8b5cf6; /* 紫色点缀 */
+  --accent: #3b82f6; /* 科技蓝作为次要强调色 */
+  --muted: #f1f5f9;
+  --muted-foreground: #6b7280;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* 暗色模式 */
+    --background: #0f172a;
+    --foreground: #f8fafc;
+    --card-background: #1e293b;
+    --card-foreground: #f8fafc;
+    --border: #374151;
+    --primary: #f8fafc;
+    --primary-foreground: #0f172a;
+    --secondary: #a78bfa;
+    --accent: #60a5fa;
+    --muted: #1e293b;
+    --muted-foreground: #9ca3af;
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card-background: var(--card-background);
+  --color-card-foreground: var(--card-foreground);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+/* 平滑过渡（仅用于颜色变化） */
+* {
+  transition-property: background-color, border-color, color;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}

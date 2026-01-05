@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "GPT-4",
+    "type": "text",
+    "company": "OpenAI",
+    "description": "最先进的大语言模型，可用于对话、写作、编程、分析等复杂任务",
+    "icon": "MessageSquare",
+    "features": ["多轮对话", "代码生成", "逻辑推理", "多语言支持"]
+  },
+  {
+    "id": 2,
+    "name": "DALL-E 3",
+    "type": "image",
+    "company": "OpenAI",
+    "description": "强大的文生图模型，能够理解复杂的文本提示并生成高质量图像",
+    "icon": "Image",
+    "features": ["文生图", "高分辨率", "细节丰富", "风格多样"]
+  },
+  {
+    "id": 3,
+    "name": "Claude",
+    "type": "text",
+    "company": "Anthropic",
+    "description": "长上下文处理能力出色，适合处理长文档、代码分析等任务",
+    "icon": "BookOpen",
+    "features": ["长上下文", "安全性强", "推理能力", "文档分析"]
+  },
+  {
+    "id": 4,
+    "name": "Stable Diffusion",
+    "type": "image",
+    "company": "Stability AI",
+    "description": "开源图像生成模型，社区生态丰富，可自定义训练和微调",
+    "icon": "Sparkles",
+    "features": ["开源免费", "社区模型", "自定义训练", "本地部署"]
+  },
+  {
+    "id": 5,
+    "name": "Whisper",
+    "type": "audio",
+    "company": "OpenAI",
+    "description": "多语言语音转文字模型，支持多种语言和方言，识别准确率高",
+    "icon": "Mic",
+    "features": ["多语言", "高精度", "实时转录", "多模型版本"]
+  },
+  {
+    "id": 6,
+    "name": "Gemini",
+    "type": "multimodal",
+    "company": "Google",
+    "description": "原生多模态大模型，同时理解文本、图像、音频、视频等多种媒体",
+    "icon": "Video",
+    "features": ["多模态", "长上下文", "代码能力", "复杂推理"]
+  },
+  {
+    "id": 7,
+    "name": "Midjourney",
+    "type": "image",
+    "company": "Midjourney",
+    "description": "艺术创作领域的顶级图像生成模型，擅长生成艺术风格和创意设计",
+    "icon": "Palette",
+    "features": ["艺术风格", "创意设计", "高质量", "风格可控"]
+  },
+  {
+    "id": 8,
+    "name": "LLaMA",
+    "type": "text",
+    "company": "Meta",
+    "description": "开源大语言模型系列，提供不同规模的版本，适合研究和商用",
+    "icon": "Terminal",
+    "features": ["开源", "多规模", "高效部署", "微调友好"]
+  },
+  {
+    "id": 9,
+    "name": "TTS",
+    "type": "audio",
+    "company": "OpenAI",
+    "description": "文本转语音模型，可生成自然流畅的语音，支持多种声音选择",
+    "icon": "Volume2",
+    "features": ["自然语音", "多声音", "情感控制", "多语言"]
+  },
+  {
+    "id": 10,
+    "name": "Grok",
+    "type": "text",
+    "company": "xAI",
+    "description": "实时联网的大语言模型，能够获取最新信息并回答复杂问题",
+    "icon": "Globe",
+    "features": ["实时联网", "幽默风格", "深度推理", "长对话"]
+  }
+]

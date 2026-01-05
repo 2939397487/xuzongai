@@ -1,0 +1,126 @@
+{
+  "folders": [
+    {
+      "id": 1,
+      "name": "迪哥AI",
+      "description": "100+小视频系统化学习AI大模型技术",
+      "thumbnail": "https://placehold.co/400x225/1e293b/f8fafc?text=迪哥AI",
+      "count": 100,
+      "icon": "folder"
+    },
+    {
+      "id": 2,
+      "name": "基础入门",
+      "description": "AI大模型基础概念和入门教程",
+      "thumbnail": "https://placehold.co/400x225/3b82f6/f8fafc?text=基础入门",
+      "count": 12,
+      "icon": "book"
+    },
+    {
+      "id": 3,
+      "name": "进阶技巧",
+      "description": "提示词工程、模型调优等进阶内容",
+      "thumbnail": "https://placehold.co/400x225/7c3aed/f8fafc?text=进阶技巧",
+      "count": 8,
+      "icon": "sparkles"
+    },
+    {
+      "id": 4,
+      "name": "实战案例",
+      "description": "真实项目案例分析和实战演练",
+      "thumbnail": "https://placehold.co/400x225/059669/f8fafc?text=实战案例",
+      "count": 15,
+      "icon": "rocket"
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "folderId": 1,
+      "title": "01-什么是大模型",
+      "description": "了解AI大模型的基本概念、发展历程和应用场景",
+      "duration": "10:30",
+      "thumbnail": "https://placehold.co/400x225/1e293b/f8fafc?text=01-大模型基础",
+      "category": "基础",
+      "level": "初级",
+      "views": "12.5K"
+    },
+    {
+      "id": 2,
+      "folderId": 1,
+      "title": "02-提示词入门",
+      "description": "学习如何编写有效的提示词来与AI模型交互",
+      "duration": "8:45",
+      "thumbnail": "https://placehold.co/400x225/1e293b/f8fafc?text=02-提示词入门",
+      "category": "基础",
+      "level": "初级",
+      "views": "8.3K"
+    },
+    {
+      "id": 3,
+      "folderId": 1,
+      "title": "03-常用大模型介绍",
+      "description": "了解GPT、Claude、文心一言等主流大模型的特点",
+      "duration": "12:20",
+      "thumbnail": "https://placehold.co/400x225/1e293b/f8fafc?text=03-模型介绍",
+      "category": "基础",
+      "level": "初级",
+      "views": "6.7K"
+    },
+    {
+      "id": 4,
+      "folderId": 1,
+      "title": "04-提示词工程技巧",
+      "description": "掌握编写高效提示词的核心技巧和最佳实践",
+      "duration": "15:10",
+      "thumbnail": "https://placehold.co/400x225/7c3aed/f8fafc?text=04-提示词工程",
+      "category": "进阶",
+      "level": "中级",
+      "views": "5.2K"
+    },
+    {
+      "id": 5,
+      "folderId": 1,
+      "title": "05-实战项目-智能客服",
+      "description": "从零开始构建智能客服系统",
+      "duration": "18:55",
+      "thumbnail": "https://placehold.co/400x225/059669/f8fafc?text=05-智能客服",
+      "category": "实战",
+      "level": "中级",
+      "views": "4.8K"
+    },
+    {
+      "id": 6,
+      "folderId": 1,
+      "title": "06-模型微调基础",
+      "description": "学习如何对预训练模型进行微调",
+      "duration": "22:30",
+      "thumbnail": "https://placehold.co/400x225/ea580c/f8fafc?text=06-模型微调",
+      "category": "进阶",
+      "level": "高级",
+      "views": "3.9K"
+    },
+    {
+      "id": 7,
+      "folderId": 2,
+      "title": "LangChain基础教程",
+      "description": "使用LangChain框架构建AI应用",
+      "duration": "35:20",
+      "thumbnail": "https://placehold.co/400x225/2563eb/f8fafc?text=LangChain",
+      "category": "进阶",
+      "level": "中级",
+      "views": "6.7K"
+    },
+    {
+      "id": 8,
+      "folderId": 2,
+      "title": "AI Agent开发入门",
+      "description": "从零开始构建智能AI Agent",
+      "duration": "28:10",
+      "thumbnail": "https://placehold.co/400x225/059669/f8fafc?text=AI+Agent",
+      "category": "实战",
+      "level": "高级",
+      "views": "5.2K"
+    }
+  ]
+}
